@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D0828FB7-1C32-3F5E-856A-DC29C940E40E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>osquery_core</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">osquery_core.dir\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">osquery_core.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">osquery_core</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">osquery_core.dir\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">osquery_core.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">osquery_core</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">osquery_core.dir\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">osquery_core.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">osquery_core</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">osquery_core.dir\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">osquery_core.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">osquery_core</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\sqlite3;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\include;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\linenoise-ng;C:\ProgramData\chocolatey\lib\aws-sdk-cpp - Copy\local\include;C:\ProgramData\chocolatey\lib\aws-sdk-cpp\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14 - Copy\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local\include;C:\ProgramData\chocolatey\lib\bzip2\local\include;C:\ProgramData\chocolatey\lib\gflags-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\gflags-dev\local\include;C:\ProgramData\chocolatey\lib\glog - Copy\local\include;C:\ProgramData\chocolatey\lib\glog\local\include;C:\ProgramData\chocolatey\lib\libarchive\local\include;C:\ProgramData\chocolatey\lib\llvm-clang - Copy\local\include;C:\ProgramData\chocolatey\lib\llvm-clang\local\include;C:\ProgramData\chocolatey\lib\openssl - Copy\local\include;C:\ProgramData\chocolatey\lib\openssl\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson\local\include;C:\ProgramData\chocolatey\lib\rocksdb\local\include;C:\ProgramData\chocolatey\lib\thrift-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\thrift-dev\local\include;C:\ProgramData\chocolatey\lib\zlib\local\include;C:\ProgramData\chocolatey\lib\zstd\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local;C:\ProgramData\chocolatey\lib\linenoise-ng\local\include\linenoise;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\generated\gen-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /guard:cf /favor:AMD64</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4244;4101;4018;4244</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32_LEAN_AND_MEAN;BOOST_ALL_NO_LIB;NDEBUG;OSQUERY_BUILD_SDK_VERSION=3.2.6;OSQUERY_BUILD_PLATFORM=windows;OSQUERY_BUILD_DISTRO=windows10;WINDOWS;WINDOWS_WINDOWS10;STRIP_FLAG_HELP=1;BOOST_NETWORK_ENABLE_HTTPS;NOMINMAX;__ASSERT_MACROS_DEFINE_VERSIONS_WITHOUT_UNDERSCORES=0;THRIFT_SQUELCH_CONSOLE_OUTPUT=1;GTEST_USE_OWN_TR1_TUPLE=0;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;WIN32_LEAN_AND_MEAN;BOOST_ALL_NO_LIB;NDEBUG;OSQUERY_BUILD_SDK_VERSION=3.2.6;OSQUERY_BUILD_PLATFORM=windows;OSQUERY_BUILD_DISTRO=windows10;WINDOWS;WINDOWS_WINDOWS10;STRIP_FLAG_HELP=1;BOOST_NETWORK_ENABLE_HTTPS;NOMINMAX;__ASSERT_MACROS_DEFINE_VERSIONS_WITHOUT_UNDERSCORES=0;THRIFT_SQUELCH_CONSOLE_OUTPUT=1;GTEST_USE_OWN_TR1_TUPLE=0;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\sqlite3;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\include;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\linenoise-ng;C:\ProgramData\chocolatey\lib\aws-sdk-cpp - Copy\local\include;C:\ProgramData\chocolatey\lib\aws-sdk-cpp\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14 - Copy\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local\include;C:\ProgramData\chocolatey\lib\bzip2\local\include;C:\ProgramData\chocolatey\lib\gflags-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\gflags-dev\local\include;C:\ProgramData\chocolatey\lib\glog - Copy\local\include;C:\ProgramData\chocolatey\lib\glog\local\include;C:\ProgramData\chocolatey\lib\libarchive\local\include;C:\ProgramData\chocolatey\lib\llvm-clang - Copy\local\include;C:\ProgramData\chocolatey\lib\llvm-clang\local\include;C:\ProgramData\chocolatey\lib\openssl - Copy\local\include;C:\ProgramData\chocolatey\lib\openssl\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson\local\include;C:\ProgramData\chocolatey\lib\rocksdb\local\include;C:\ProgramData\chocolatey\lib\thrift-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\thrift-dev\local\include;C:\ProgramData\chocolatey\lib\zlib\local\include;C:\ProgramData\chocolatey\lib\zstd\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local;C:\ProgramData\chocolatey\lib\linenoise-ng\local\include\linenoise;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\generated\gen-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\sqlite3;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\include;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\linenoise-ng;C:\ProgramData\chocolatey\lib\aws-sdk-cpp - Copy\local\include;C:\ProgramData\chocolatey\lib\aws-sdk-cpp\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14 - Copy\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local\include;C:\ProgramData\chocolatey\lib\bzip2\local\include;C:\ProgramData\chocolatey\lib\gflags-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\gflags-dev\local\include;C:\ProgramData\chocolatey\lib\glog - Copy\local\include;C:\ProgramData\chocolatey\lib\glog\local\include;C:\ProgramData\chocolatey\lib\libarchive\local\include;C:\ProgramData\chocolatey\lib\llvm-clang - Copy\local\include;C:\ProgramData\chocolatey\lib\llvm-clang\local\include;C:\ProgramData\chocolatey\lib\openssl - Copy\local\include;C:\ProgramData\chocolatey\lib\openssl\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson\local\include;C:\ProgramData\chocolatey\lib\rocksdb\local\include;C:\ProgramData\chocolatey\lib\thrift-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\thrift-dev\local\include;C:\ProgramData\chocolatey\lib\zlib\local\include;C:\ProgramData\chocolatey\lib\zstd\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local;C:\ProgramData\chocolatey\lib\linenoise-ng\local\include\linenoise;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\generated\gen-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\sqlite3;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\include;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\linenoise-ng;C:\ProgramData\chocolatey\lib\aws-sdk-cpp - Copy\local\include;C:\ProgramData\chocolatey\lib\aws-sdk-cpp\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14 - Copy\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local\include;C:\ProgramData\chocolatey\lib\bzip2\local\include;C:\ProgramData\chocolatey\lib\gflags-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\gflags-dev\local\include;C:\ProgramData\chocolatey\lib\glog - Copy\local\include;C:\ProgramData\chocolatey\lib\glog\local\include;C:\ProgramData\chocolatey\lib\libarchive\local\include;C:\ProgramData\chocolatey\lib\llvm-clang - Copy\local\include;C:\ProgramData\chocolatey\lib\llvm-clang\local\include;C:\ProgramData\chocolatey\lib\openssl - Copy\local\include;C:\ProgramData\chocolatey\lib\openssl\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson\local\include;C:\ProgramData\chocolatey\lib\rocksdb\local\include;C:\ProgramData\chocolatey\lib\thrift-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\thrift-dev\local\include;C:\ProgramData\chocolatey\lib\zlib\local\include;C:\ProgramData\chocolatey\lib\zstd\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local;C:\ProgramData\chocolatey\lib\linenoise-ng\local\include\linenoise;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\generated\gen-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /guard:cf /favor:AMD64</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4018;4244;4101;4018;4244</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;BOOST_ALL_NO_LIB;OSQUERY_BUILD_SDK_VERSION=3.2.6;OSQUERY_BUILD_PLATFORM=windows;OSQUERY_BUILD_DISTRO=windows10;WINDOWS;WINDOWS_WINDOWS10;STRIP_FLAG_HELP=1;BOOST_NETWORK_ENABLE_HTTPS;NOMINMAX;__ASSERT_MACROS_DEFINE_VERSIONS_WITHOUT_UNDERSCORES=0;THRIFT_SQUELCH_CONSOLE_OUTPUT=1;GTEST_USE_OWN_TR1_TUPLE=0;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;BOOST_ALL_NO_LIB;OSQUERY_BUILD_SDK_VERSION=3.2.6;OSQUERY_BUILD_PLATFORM=windows;OSQUERY_BUILD_DISTRO=windows10;WINDOWS;WINDOWS_WINDOWS10;STRIP_FLAG_HELP=1;BOOST_NETWORK_ENABLE_HTTPS;NOMINMAX;__ASSERT_MACROS_DEFINE_VERSIONS_WITHOUT_UNDERSCORES=0;THRIFT_SQUELCH_CONSOLE_OUTPUT=1;GTEST_USE_OWN_TR1_TUPLE=0;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\sqlite3;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\include;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\linenoise-ng;C:\ProgramData\chocolatey\lib\aws-sdk-cpp - Copy\local\include;C:\ProgramData\chocolatey\lib\aws-sdk-cpp\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14 - Copy\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local\include;C:\ProgramData\chocolatey\lib\bzip2\local\include;C:\ProgramData\chocolatey\lib\gflags-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\gflags-dev\local\include;C:\ProgramData\chocolatey\lib\glog - Copy\local\include;C:\ProgramData\chocolatey\lib\glog\local\include;C:\ProgramData\chocolatey\lib\libarchive\local\include;C:\ProgramData\chocolatey\lib\llvm-clang - Copy\local\include;C:\ProgramData\chocolatey\lib\llvm-clang\local\include;C:\ProgramData\chocolatey\lib\openssl - Copy\local\include;C:\ProgramData\chocolatey\lib\openssl\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson\local\include;C:\ProgramData\chocolatey\lib\rocksdb\local\include;C:\ProgramData\chocolatey\lib\thrift-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\thrift-dev\local\include;C:\ProgramData\chocolatey\lib\zlib\local\include;C:\ProgramData\chocolatey\lib\zstd\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local;C:\ProgramData\chocolatey\lib\linenoise-ng\local\include\linenoise;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\generated\gen-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\sqlite3;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\include;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\linenoise-ng;C:\ProgramData\chocolatey\lib\aws-sdk-cpp - Copy\local\include;C:\ProgramData\chocolatey\lib\aws-sdk-cpp\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14 - Copy\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local\include;C:\ProgramData\chocolatey\lib\bzip2\local\include;C:\ProgramData\chocolatey\lib\gflags-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\gflags-dev\local\include;C:\ProgramData\chocolatey\lib\glog - Copy\local\include;C:\ProgramData\chocolatey\lib\glog\local\include;C:\ProgramData\chocolatey\lib\libarchive\local\include;C:\ProgramData\chocolatey\lib\llvm-clang - Copy\local\include;C:\ProgramData\chocolatey\lib\llvm-clang\local\include;C:\ProgramData\chocolatey\lib\openssl - Copy\local\include;C:\ProgramData\chocolatey\lib\openssl\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson\local\include;C:\ProgramData\chocolatey\lib\rocksdb\local\include;C:\ProgramData\chocolatey\lib\thrift-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\thrift-dev\local\include;C:\ProgramData\chocolatey\lib\zlib\local\include;C:\ProgramData\chocolatey\lib\zstd\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local;C:\ProgramData\chocolatey\lib\linenoise-ng\local\include\linenoise;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\generated\gen-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\sqlite3;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\include;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\linenoise-ng;C:\ProgramData\chocolatey\lib\aws-sdk-cpp - Copy\local\include;C:\ProgramData\chocolatey\lib\aws-sdk-cpp\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14 - Copy\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local\include;C:\ProgramData\chocolatey\lib\bzip2\local\include;C:\ProgramData\chocolatey\lib\gflags-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\gflags-dev\local\include;C:\ProgramData\chocolatey\lib\glog - Copy\local\include;C:\ProgramData\chocolatey\lib\glog\local\include;C:\ProgramData\chocolatey\lib\libarchive\local\include;C:\ProgramData\chocolatey\lib\llvm-clang - Copy\local\include;C:\ProgramData\chocolatey\lib\llvm-clang\local\include;C:\ProgramData\chocolatey\lib\openssl - Copy\local\include;C:\ProgramData\chocolatey\lib\openssl\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson\local\include;C:\ProgramData\chocolatey\lib\rocksdb\local\include;C:\ProgramData\chocolatey\lib\thrift-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\thrift-dev\local\include;C:\ProgramData\chocolatey\lib\zlib\local\include;C:\ProgramData\chocolatey\lib\zstd\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local;C:\ProgramData\chocolatey\lib\linenoise-ng\local\include\linenoise;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\generated\gen-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /guard:cf /favor:AMD64</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4018;4244;4101;4018;4244</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;BOOST_ALL_NO_LIB;OSQUERY_BUILD_SDK_VERSION=3.2.6;OSQUERY_BUILD_PLATFORM=windows;OSQUERY_BUILD_DISTRO=windows10;WINDOWS;WINDOWS_WINDOWS10;STRIP_FLAG_HELP=1;BOOST_NETWORK_ENABLE_HTTPS;NOMINMAX;__ASSERT_MACROS_DEFINE_VERSIONS_WITHOUT_UNDERSCORES=0;THRIFT_SQUELCH_CONSOLE_OUTPUT=1;GTEST_USE_OWN_TR1_TUPLE=0;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;BOOST_ALL_NO_LIB;OSQUERY_BUILD_SDK_VERSION=3.2.6;OSQUERY_BUILD_PLATFORM=windows;OSQUERY_BUILD_DISTRO=windows10;WINDOWS;WINDOWS_WINDOWS10;STRIP_FLAG_HELP=1;BOOST_NETWORK_ENABLE_HTTPS;NOMINMAX;__ASSERT_MACROS_DEFINE_VERSIONS_WITHOUT_UNDERSCORES=0;THRIFT_SQUELCH_CONSOLE_OUTPUT=1;GTEST_USE_OWN_TR1_TUPLE=0;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\sqlite3;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\include;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\linenoise-ng;C:\ProgramData\chocolatey\lib\aws-sdk-cpp - Copy\local\include;C:\ProgramData\chocolatey\lib\aws-sdk-cpp\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14 - Copy\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local\include;C:\ProgramData\chocolatey\lib\bzip2\local\include;C:\ProgramData\chocolatey\lib\gflags-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\gflags-dev\local\include;C:\ProgramData\chocolatey\lib\glog - Copy\local\include;C:\ProgramData\chocolatey\lib\glog\local\include;C:\ProgramData\chocolatey\lib\libarchive\local\include;C:\ProgramData\chocolatey\lib\llvm-clang - Copy\local\include;C:\ProgramData\chocolatey\lib\llvm-clang\local\include;C:\ProgramData\chocolatey\lib\openssl - Copy\local\include;C:\ProgramData\chocolatey\lib\openssl\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson\local\include;C:\ProgramData\chocolatey\lib\rocksdb\local\include;C:\ProgramData\chocolatey\lib\thrift-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\thrift-dev\local\include;C:\ProgramData\chocolatey\lib\zlib\local\include;C:\ProgramData\chocolatey\lib\zstd\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local;C:\ProgramData\chocolatey\lib\linenoise-ng\local\include\linenoise;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\generated\gen-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\sqlite3;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\include;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\linenoise-ng;C:\ProgramData\chocolatey\lib\aws-sdk-cpp - Copy\local\include;C:\ProgramData\chocolatey\lib\aws-sdk-cpp\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14 - Copy\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local\include;C:\ProgramData\chocolatey\lib\bzip2\local\include;C:\ProgramData\chocolatey\lib\gflags-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\gflags-dev\local\include;C:\ProgramData\chocolatey\lib\glog - Copy\local\include;C:\ProgramData\chocolatey\lib\glog\local\include;C:\ProgramData\chocolatey\lib\libarchive\local\include;C:\ProgramData\chocolatey\lib\llvm-clang - Copy\local\include;C:\ProgramData\chocolatey\lib\llvm-clang\local\include;C:\ProgramData\chocolatey\lib\openssl - Copy\local\include;C:\ProgramData\chocolatey\lib\openssl\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson\local\include;C:\ProgramData\chocolatey\lib\rocksdb\local\include;C:\ProgramData\chocolatey\lib\thrift-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\thrift-dev\local\include;C:\ProgramData\chocolatey\lib\zlib\local\include;C:\ProgramData\chocolatey\lib\zstd\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local;C:\ProgramData\chocolatey\lib\linenoise-ng\local\include\linenoise;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\generated\gen-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\sqlite3;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\include;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\linenoise-ng;C:\ProgramData\chocolatey\lib\aws-sdk-cpp - Copy\local\include;C:\ProgramData\chocolatey\lib\aws-sdk-cpp\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14 - Copy\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local\include;C:\ProgramData\chocolatey\lib\bzip2\local\include;C:\ProgramData\chocolatey\lib\gflags-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\gflags-dev\local\include;C:\ProgramData\chocolatey\lib\glog - Copy\local\include;C:\ProgramData\chocolatey\lib\glog\local\include;C:\ProgramData\chocolatey\lib\libarchive\local\include;C:\ProgramData\chocolatey\lib\llvm-clang - Copy\local\include;C:\ProgramData\chocolatey\lib\llvm-clang\local\include;C:\ProgramData\chocolatey\lib\openssl - Copy\local\include;C:\ProgramData\chocolatey\lib\openssl\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson\local\include;C:\ProgramData\chocolatey\lib\rocksdb\local\include;C:\ProgramData\chocolatey\lib\thrift-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\thrift-dev\local\include;C:\ProgramData\chocolatey\lib\zlib\local\include;C:\ProgramData\chocolatey\lib\zstd\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local;C:\ProgramData\chocolatey\lib\linenoise-ng\local\include\linenoise;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\generated\gen-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /guard:cf /favor:AMD64</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4244;4101;4018;4244</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;BOOST_ALL_NO_LIB;OSQUERY_BUILD_SDK_VERSION=3.2.6;OSQUERY_BUILD_PLATFORM=windows;OSQUERY_BUILD_DISTRO=windows10;WINDOWS;WINDOWS_WINDOWS10;STRIP_FLAG_HELP=1;BOOST_NETWORK_ENABLE_HTTPS;NOMINMAX;__ASSERT_MACROS_DEFINE_VERSIONS_WITHOUT_UNDERSCORES=0;THRIFT_SQUELCH_CONSOLE_OUTPUT=1;GTEST_USE_OWN_TR1_TUPLE=0;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;BOOST_ALL_NO_LIB;OSQUERY_BUILD_SDK_VERSION=3.2.6;OSQUERY_BUILD_PLATFORM=windows;OSQUERY_BUILD_DISTRO=windows10;WINDOWS;WINDOWS_WINDOWS10;STRIP_FLAG_HELP=1;BOOST_NETWORK_ENABLE_HTTPS;NOMINMAX;__ASSERT_MACROS_DEFINE_VERSIONS_WITHOUT_UNDERSCORES=0;THRIFT_SQUELCH_CONSOLE_OUTPUT=1;GTEST_USE_OWN_TR1_TUPLE=0;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\sqlite3;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\include;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\linenoise-ng;C:\ProgramData\chocolatey\lib\aws-sdk-cpp - Copy\local\include;C:\ProgramData\chocolatey\lib\aws-sdk-cpp\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14 - Copy\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local\include;C:\ProgramData\chocolatey\lib\bzip2\local\include;C:\ProgramData\chocolatey\lib\gflags-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\gflags-dev\local\include;C:\ProgramData\chocolatey\lib\glog - Copy\local\include;C:\ProgramData\chocolatey\lib\glog\local\include;C:\ProgramData\chocolatey\lib\libarchive\local\include;C:\ProgramData\chocolatey\lib\llvm-clang - Copy\local\include;C:\ProgramData\chocolatey\lib\llvm-clang\local\include;C:\ProgramData\chocolatey\lib\openssl - Copy\local\include;C:\ProgramData\chocolatey\lib\openssl\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson\local\include;C:\ProgramData\chocolatey\lib\rocksdb\local\include;C:\ProgramData\chocolatey\lib\thrift-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\thrift-dev\local\include;C:\ProgramData\chocolatey\lib\zlib\local\include;C:\ProgramData\chocolatey\lib\zstd\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local;C:\ProgramData\chocolatey\lib\linenoise-ng\local\include\linenoise;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\generated\gen-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\sqlite3;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\include;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\linenoise-ng;C:\ProgramData\chocolatey\lib\aws-sdk-cpp - Copy\local\include;C:\ProgramData\chocolatey\lib\aws-sdk-cpp\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14 - Copy\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local\include;C:\ProgramData\chocolatey\lib\bzip2\local\include;C:\ProgramData\chocolatey\lib\gflags-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\gflags-dev\local\include;C:\ProgramData\chocolatey\lib\glog - Copy\local\include;C:\ProgramData\chocolatey\lib\glog\local\include;C:\ProgramData\chocolatey\lib\libarchive\local\include;C:\ProgramData\chocolatey\lib\llvm-clang - Copy\local\include;C:\ProgramData\chocolatey\lib\llvm-clang\local\include;C:\ProgramData\chocolatey\lib\openssl - Copy\local\include;C:\ProgramData\chocolatey\lib\openssl\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson\local\include;C:\ProgramData\chocolatey\lib\rocksdb\local\include;C:\ProgramData\chocolatey\lib\thrift-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\thrift-dev\local\include;C:\ProgramData\chocolatey\lib\zlib\local\include;C:\ProgramData\chocolatey\lib\zstd\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local;C:\ProgramData\chocolatey\lib\linenoise-ng\local\include\linenoise;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\generated\gen-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\osquery\core\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/osquery/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery -BC:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/build/windows10 --check-stamp-file C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/build/windows10/osquery/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/osquery/core/CMakeLists.txt;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\osquery\core\CMakeLists.txt;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\osquery\core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/osquery/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery -BC:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/build/windows10 --check-stamp-file C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/build/windows10/osquery/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/osquery/core/CMakeLists.txt;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\osquery\core\CMakeLists.txt;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\osquery\core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/osquery/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery -BC:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/build/windows10 --check-stamp-file C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/build/windows10/osquery/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/osquery/core/CMakeLists.txt;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\osquery\core\CMakeLists.txt;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\osquery\core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/osquery/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery -BC:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/build/windows10 --check-stamp-file C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/build/windows10/osquery/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/osquery/core/CMakeLists.txt;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\osquery\core\CMakeLists.txt;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\osquery\core\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\osquery\core\windows\initializer.cpp"  />
+    <ClCompile Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\osquery\core\windows\process.cpp"  />
+    <ClCompile Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\osquery\core\windows\process_ops.cpp"  />
+    <ClCompile Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\osquery\core\windows\utils.cpp"  />
+    <ClCompile Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\osquery\core\windows\wmi.cpp"  />
+    <ClCompile Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\osquery\core\conversions.cpp"  />
+    <ClCompile Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\osquery\core\flags.cpp"  />
+    <ClCompile Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\osquery\core\hashing.cpp"  />
+    <ClCompile Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\osquery\core\init.cpp"  />
+    <ClCompile Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\osquery\core\query.cpp"  />
+    <ClCompile Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\osquery\core\system.cpp"  />
+    <ClCompile Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\osquery\core\tables.cpp"  />
+    <ClCompile Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\osquery\core\watcher.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\ZERO_CHECK.vcxproj">
+      <Project>{C327A719-E9DC-3623-8614-83DE65424E77}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\extensions\osquery_extensions.vcxproj">
+      <Project>{C9A08890-1F45-3CBE-A726-66F1CB0BFF5D}</Project>
+      <Name>osquery_extensions</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

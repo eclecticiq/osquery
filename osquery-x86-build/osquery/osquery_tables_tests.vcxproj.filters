@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\osquery\tests\test_additional_util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\osquery\main\tests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\osquery\tables\events\tests\file_events_tests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\osquery\tables\networking\tests\networking_tables_tests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\osquery\tables\system\tests\system_tables_tests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\osquery\tables\system\windows\tests\registry_tests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\osquery\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{55AED2C9-7DD0-30EF-8480-E5BA837C2E38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1EAA032F-5F66-39D2-AC6E-A676C0BB862C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>bsdtar</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">bsdtar.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">bsdtar</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">bsdtar.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">bsdtar</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">bsdtar.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">bsdtar</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">bsdtar.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">bsdtar</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\..\libarchive_fe;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatSpecificWarningsAsErrors>4061;4254;4295;4296;4389;4505;4514;4702;4706</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;LIBARCHIVE_STATIC;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;LIBARCHIVE_STATIC;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\..\libarchive_fe;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\..\libarchive_fe;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\libarchive\Debug\archive_static.lib;Bcrypt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/tar/Debug/bsdtar.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/bin/Debug/bsdtar.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\..\libarchive_fe;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LIBARCHIVE_STATIC;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LIBARCHIVE_STATIC;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\..\libarchive_fe;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\..\libarchive_fe;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\libarchive\Release\archive_static.lib;Bcrypt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/tar/Release/bsdtar.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/bin/Release/bsdtar.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\..\libarchive_fe;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LIBARCHIVE_STATIC;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LIBARCHIVE_STATIC;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\..\libarchive_fe;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\..\libarchive_fe;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\libarchive\MinSizeRel\archive_static.lib;Bcrypt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/tar/MinSizeRel/bsdtar.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/bin/MinSizeRel/bsdtar.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\..\libarchive_fe;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LIBARCHIVE_STATIC;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LIBARCHIVE_STATIC;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\..\libarchive_fe;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\..\libarchive_fe;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\libarchive\RelWithDebInfo\archive_static.lib;Bcrypt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/tar/RelWithDebInfo/bsdtar.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/bin/RelWithDebInfo/bsdtar.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/tar/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3 -BC:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3 --check-stamp-file C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/tar/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/tar/CMakeLists.txt;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\CMakeLists.txt;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/tar/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3 -BC:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3 --check-stamp-file C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/tar/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/tar/CMakeLists.txt;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\CMakeLists.txt;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/tar/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3 -BC:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3 --check-stamp-file C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/tar/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/tar/CMakeLists.txt;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\CMakeLists.txt;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/tar/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3 -BC:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3 --check-stamp-file C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/tar/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/tar/CMakeLists.txt;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\CMakeLists.txt;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\bsdtar.c"  />
+    <ClInclude Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\bsdtar.h" />
+    <ClInclude Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\bsdtar_platform.h" />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\cmdline.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\creation_set.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\read.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\subst.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\util.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\write.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive_fe\err.c"  />
+    <ClInclude Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive_fe\err.h" />
+    <ClInclude Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive_fe\lafe_platform.h" />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive_fe\line_reader.c"  />
+    <ClInclude Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive_fe\line_reader.h" />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive_fe\passphrase.c"  />
+    <ClInclude Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive_fe\passphrase.h" />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\bsdtar_windows.c"  />
+    <ClInclude Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\bsdtar_windows.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\ZERO_CHECK.vcxproj">
+      <Project>{C279CF55-1B53-3995-8DCF-2F7848C7A97F}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive\archive_static.vcxproj">
+      <Project>{DC705A5A-DC2E-37B6-AF30-40061019CD0C}</Project>
+      <Name>archive_static</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

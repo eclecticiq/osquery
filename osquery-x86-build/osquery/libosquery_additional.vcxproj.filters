@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\osquery\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\config\osquery_config_plugins.dir\$(Configuration)\filesystem_config.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\config\osquery_config_plugins.dir\$(Configuration)\tls_config.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\config\osquery_config_plugins.dir\$(Configuration)\update.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\config\osquery_additional_config_parsers.dir\$(Configuration)\auto_constructed_tables.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\database\osquery_database_plugins.dir\$(Configuration)\sqlite.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\database\osquery_database_plugins.dir\$(Configuration)\rocksdb.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\devtools\osquery_devtools.dir\$(Configuration)\printer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\dispatcher\osquery_dispatcher_runners.dir\$(Configuration)\scheduler.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\dispatcher\osquery_dispatcher_runners.dir\$(Configuration)\distributed.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\dispatcher\osquery_dispatcher_runners.dir\$(Configuration)\io_service.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\distributed\osquery_distributed_plugins.dir\$(Configuration)\tls_distributed.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\events\osquery_events_windows.dir\$(Configuration)\windows_event_log.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\filesystem\osquery_filesystem_compression.dir\$(Configuration)\file_compression.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\logger\osquery_logger_plugins.dir\$(Configuration)\buffered.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\logger\osquery_logger_plugins.dir\$(Configuration)\filesystem_logger.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\logger\osquery_logger_plugins.dir\$(Configuration)\tls_logger.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\logger\osquery_logger_plugins.dir\$(Configuration)\stdout.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\logger\osquery_logger_plugins.dir\$(Configuration)\windows_event_log.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\logger\osquery_logger_aws_plugins.dir\$(Configuration)\aws_firehose.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\logger\osquery_logger_aws_plugins.dir\$(Configuration)\aws_kinesis.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\sql\osquery_sql_internal.dir\$(Configuration)\sqlite_util.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\sql\osquery_sql_internal.dir\$(Configuration)\sqlite_math.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\sql\osquery_sql_internal.dir\$(Configuration)\sqlite_hashing.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\sql\osquery_sql_internal.dir\$(Configuration)\sqlite_encoding.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\sql\osquery_sql_internal.dir\$(Configuration)\virtual_table.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\sql\osquery_sql_internal.dir\$(Configuration)\virtual_sqlite_table.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\sql\osquery_sql_internal.dir\$(Configuration)\sqlite_string.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\sql\osquery_sql_internal.dir\$(Configuration)\sqlite_operations.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\remote\osquery_remote.dir\$(Configuration)\enroll.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\remote\osquery_remote.dir\$(Configuration)\json.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\remote\osquery_remote.dir\$(Configuration)\tls.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\remote\osquery_remote.dir\$(Configuration)\http_client.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\remote\osquery_remote.dir\$(Configuration)\remote.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\remote\osquery_remote.dir\$(Configuration)\uri.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\remote\osquery_enrollment_plugins.dir\$(Configuration)\tls_enroll.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\utils\osquery_aws_util.dir\$(Configuration)\aws_util.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\carver\osquery_carver.dir\$(Configuration)\carver.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_applications_tables.dir\$(Configuration)\browser_chrome.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_applications_tables.dir\$(Configuration)\browser_utils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_applications_tables.dir\$(Configuration)\carbon_black.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_events_tables.dir\$(Configuration)\event_utils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_events_tables.dir\$(Configuration)\powershell_events.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_events_tables.dir\$(Configuration)\windows_events.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_networking_tables.dir\$(Configuration)\curl.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_networking_tables.dir\$(Configuration)\curl_certificate.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_networking_tables.dir\$(Configuration)\etc_hosts.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_networking_tables.dir\$(Configuration)\etc_protocols.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_networking_tables.dir\$(Configuration)\etc_services.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_networking_tables.dir\$(Configuration)\listening_ports.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_networking_tables.dir\$(Configuration)\arp_cache.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_networking_tables.dir\$(Configuration)\interfaces.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_networking_tables.dir\$(Configuration)\process_open_sockets.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_networking_tables.dir\$(Configuration)\routes.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\cpuid.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\hash.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\python_packages.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\system_utils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\uptime.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\appcompat_shims.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\authenticode.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\autoexec.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\bitlocker_info.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\certificates.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\chocolatey_packages.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\disk_info.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\drivers.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\groups.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\ie_extensions.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\intel_me.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\kernel_info.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\kva_speculative_info.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\logged_in_users.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\logical_drives.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\os_version.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\patches.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\physical_disk_performance.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\pipes.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\processes.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\programs.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\registry.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\scheduled_tasks.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\services.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\shared_resources.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\smbios_tables.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\startup_items.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\system_info.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\user_groups.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\users.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\video_info.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\windows_crashes.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\wmi_bios_info.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\wmi_cli_event_consumers.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\wmi_event_filters.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\wmi_filter_consumer_binding.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.dir\$(Configuration)\wmi_script_event_consumers.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_forensic_tables.dir\$(Configuration)\carves.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\osquery_additional_amalgamation.dir\$(Configuration)\additional_amalgamation.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\osquery_foreign_amalgamation.dir\$(Configuration)\foreign_amalgamation.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{552EC4CF-7899-3D47-A746-8EBA24959613}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

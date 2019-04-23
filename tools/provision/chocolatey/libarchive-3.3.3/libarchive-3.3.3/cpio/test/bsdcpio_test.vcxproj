@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4FAF41D4-9C59-386C-BC2C-A8CA556D5354}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>bsdcpio_test</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">bsdcpio_test.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">bsdcpio_test</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">bsdcpio_test.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">bsdcpio_test</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">bsdcpio_test.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">bsdcpio_test</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">bsdcpio_test.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">bsdcpio_test</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\test_utils;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\..\libarchive_fe;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatSpecificWarningsAsErrors>4061;4254;4295;4296;4389;4505;4514;4702;4706</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;LIST_H;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;LIST_H;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\test_utils;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\..\libarchive_fe;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\test_utils;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\..\libarchive_fe;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/cpio/test/Debug/bsdcpio_test.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/bin/Debug/bsdcpio_test.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\test_utils;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\..\libarchive_fe;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LIST_H;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LIST_H;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\test_utils;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\..\libarchive_fe;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\test_utils;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\..\libarchive_fe;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/cpio/test/Release/bsdcpio_test.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/bin/Release/bsdcpio_test.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\test_utils;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\..\libarchive_fe;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LIST_H;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LIST_H;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\test_utils;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\..\libarchive_fe;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\test_utils;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\..\libarchive_fe;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/cpio/test/MinSizeRel/bsdcpio_test.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/bin/MinSizeRel/bsdcpio_test.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\test_utils;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\..\libarchive_fe;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LIST_H;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LIST_H;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\test_utils;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\..\libarchive_fe;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\test_utils;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\..\libarchive_fe;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/cpio/test/RelWithDebInfo/bsdcpio_test.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/bin/RelWithDebInfo/bsdcpio_test.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/cpio/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3 -BC:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3 --check-stamp-file C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/cpio/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/cpio/test/CMakeLists.txt;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\CMakeLists.txt;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\list.h;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/cpio/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3 -BC:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3 --check-stamp-file C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/cpio/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/cpio/test/CMakeLists.txt;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\CMakeLists.txt;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\list.h;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/cpio/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3 -BC:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3 --check-stamp-file C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/cpio/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/cpio/test/CMakeLists.txt;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\CMakeLists.txt;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\list.h;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/cpio/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3 -BC:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3 --check-stamp-file C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/cpio/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/preet/Desktop/libarchive-3.3.3/libarchive-3.3.3/cpio/test/CMakeLists.txt;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\CMakeLists.txt;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\list.h;C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\cmdline.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive_fe\err.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\test_utils\test_utils.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\test_utils\test_main.c"  />
+    <ClInclude Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test.h" />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_0.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_basic.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_cmdline.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_extract_cpio_Z.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_extract_cpio_bz2.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_extract_cpio_grz.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_extract_cpio_gz.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_extract_cpio_lrz.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_extract_cpio_lz.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_extract_cpio_lz4.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_extract_cpio_lzma.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_extract_cpio_lzo.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_extract_cpio_xz.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_extract_cpio_zstd.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_format_newc.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_gcpio_compat.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_missing_file.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_option_0.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_option_B_upper.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_option_C_upper.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_option_J_upper.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_option_L_upper.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_option_Z_upper.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_option_a.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_option_b64encode.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_option_c.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_option_d.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_option_f.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_option_grzip.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_option_help.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_option_l.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_option_lrzip.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_option_lz4.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_option_lzma.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_option_lzop.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_option_m.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_option_passphrase.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_option_t.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_option_u.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_option_uuencode.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_option_version.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_option_xz.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_option_y.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_option_z.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_option_zstd.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_owner_parse.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_passthrough_dotdot.c"  />
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cpio\test\test_passthrough_reverse.c"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\ZERO_CHECK.vcxproj">
+      <Project>{C279CF55-1B53-3995-8DCF-2F7848C7A97F}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

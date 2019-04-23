@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\generated\foreign_amalgamation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\osquery\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\account_policy_data.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\ad_config.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\alf.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\alf_exceptions.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\alf_explicit_auths.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\alf_services.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\app_schemes.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\apps.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\asl.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\authorization_mechanisms.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\authorizations.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\browser_plugins.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\crashes.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\cups_destinations.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\cups_jobs.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\device_firmware.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\disk_events.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\event_taps.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\extended_attributes.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\fan_speed_sensors.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\gatekeeper.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\gatekeeper_approved_apps.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\homebrew_packages.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\iokit_devicetree.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\iokit_registry.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\kernel_extensions.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\kernel_panics.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\keychain_acls.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\keychain_items.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\launchd.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\launchd_overrides.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\managed_policies.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\mdfind.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\nfs_shares.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\nvram.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\package_bom.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\package_install_history.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\package_receipts.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\plist.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\power_sensors.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\preferences.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\quicklook_cache.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\safari_extensions.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\sandboxes.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\shared_folders.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\sharing_preferences.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\signature.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\sip_config.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\smc_keys.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\temperature_sensors.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\time_machine_backups.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\time_machine_destinations.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\user_interaction_events.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\virtual_memory_info.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\wifi_networks.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\wifi_scan.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\wifi_status.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\xprotect_entries.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\xprotect_meta.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\xprotect_reports.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\fbsd_kmods.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\pkg_packages.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\deb_packages.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\ec2_instance_metadata.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\ec2_instance_tags.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\iptables.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\kernel_integrity.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\kernel_modules.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\md_devices.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\md_drives.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\md_personalities.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\memory_info.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\memory_map.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\msr.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\npm_packages.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\portage_keywords.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\portage_packages.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\portage_use.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\process_file_events.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\rpm_package_files.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\rpm_packages.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\shadow.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\shared_memory.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\socket_events.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\syslog_events.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\lldp_neighbors.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\acpi_tables.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\apt_sources.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\augeas.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\authorized_keys.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\block_devices.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\cpu_time.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\crontab.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\disk_encryption.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\dns_resolvers.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\docker_container_labels.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\docker_container_mounts.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\docker_container_networks.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\docker_container_ports.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\docker_container_processes.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\docker_container_stats.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\docker_containers.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\docker_image_labels.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\docker_images.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\docker_info.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\docker_network_labels.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\docker_networks.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\docker_version.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\docker_volume_labels.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\docker_volumes.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\file_events.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\firefox_addons.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\hardware_events.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\known_hosts.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\last.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\load_average.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\magic.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\memory_devices.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\mounts.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\opera_extensions.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\pci_devices.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\process_envs.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\process_events.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\process_open_files.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\prometheus_metrics.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\shell_history.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\smbios_tables.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\sudoers.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\suid_bin.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\system_controls.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\usb_devices.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\user_events.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\user_ssh_keys.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\yum_sources.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\device_file.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\device_hash.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\device_partitions.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\yara.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\df17dd81210ec89315813b3a24000cba\yara_events.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\6af44d06375ed5bb9cbb02075f1eb763\foreign_amalgamation.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{55AED2C9-7DD0-30EF-8480-E5BA837C2E38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D7F7290A-855A-365D-8382-C2D120D88F64}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

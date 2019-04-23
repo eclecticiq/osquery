@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0E2E0FD7-ABFD-3AF5-8F17-95BB245BFA21}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\sqlite3;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\include;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\linenoise-ng;C:\ProgramData\chocolatey\lib\aws-sdk-cpp - Copy\local\include;C:\ProgramData\chocolatey\lib\aws-sdk-cpp\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14 - Copy\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local\include;C:\ProgramData\chocolatey\lib\bzip2\local\include;C:\ProgramData\chocolatey\lib\gflags-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\gflags-dev\local\include;C:\ProgramData\chocolatey\lib\glog - Copy\local\include;C:\ProgramData\chocolatey\lib\glog\local\include;C:\ProgramData\chocolatey\lib\libarchive\local\include;C:\ProgramData\chocolatey\lib\llvm-clang - Copy\local\include;C:\ProgramData\chocolatey\lib\llvm-clang\local\include;C:\ProgramData\chocolatey\lib\openssl - Copy\local\include;C:\ProgramData\chocolatey\lib\openssl\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson\local\include;C:\ProgramData\chocolatey\lib\rocksdb\local\include;C:\ProgramData\chocolatey\lib\thrift-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\thrift-dev\local\include;C:\ProgramData\chocolatey\lib\zlib\local\include;C:\ProgramData\chocolatey\lib\zstd\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local;C:\ProgramData\chocolatey\lib\linenoise-ng\local\include\linenoise;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\generated\gen-cpp;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\googletest\googlemock\include;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\googletest\googlemock;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\googletest\googletest\include;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\sqlite3;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\include;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\linenoise-ng;C:\ProgramData\chocolatey\lib\aws-sdk-cpp - Copy\local\include;C:\ProgramData\chocolatey\lib\aws-sdk-cpp\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14 - Copy\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local\include;C:\ProgramData\chocolatey\lib\bzip2\local\include;C:\ProgramData\chocolatey\lib\gflags-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\gflags-dev\local\include;C:\ProgramData\chocolatey\lib\glog - Copy\local\include;C:\ProgramData\chocolatey\lib\glog\local\include;C:\ProgramData\chocolatey\lib\libarchive\local\include;C:\ProgramData\chocolatey\lib\llvm-clang - Copy\local\include;C:\ProgramData\chocolatey\lib\llvm-clang\local\include;C:\ProgramData\chocolatey\lib\openssl - Copy\local\include;C:\ProgramData\chocolatey\lib\openssl\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson\local\include;C:\ProgramData\chocolatey\lib\rocksdb\local\include;C:\ProgramData\chocolatey\lib\thrift-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\thrift-dev\local\include;C:\ProgramData\chocolatey\lib\zlib\local\include;C:\ProgramData\chocolatey\lib\zstd\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local;C:\ProgramData\chocolatey\lib\linenoise-ng\local\include\linenoise;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\generated\gen-cpp;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\googletest\googlemock\include;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\googletest\googlemock;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\googletest\googletest\include;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\sqlite3;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\include;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\linenoise-ng;C:\ProgramData\chocolatey\lib\aws-sdk-cpp - Copy\local\include;C:\ProgramData\chocolatey\lib\aws-sdk-cpp\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14 - Copy\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local\include;C:\ProgramData\chocolatey\lib\bzip2\local\include;C:\ProgramData\chocolatey\lib\gflags-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\gflags-dev\local\include;C:\ProgramData\chocolatey\lib\glog - Copy\local\include;C:\ProgramData\chocolatey\lib\glog\local\include;C:\ProgramData\chocolatey\lib\libarchive\local\include;C:\ProgramData\chocolatey\lib\llvm-clang - Copy\local\include;C:\ProgramData\chocolatey\lib\llvm-clang\local\include;C:\ProgramData\chocolatey\lib\openssl - Copy\local\include;C:\ProgramData\chocolatey\lib\openssl\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson\local\include;C:\ProgramData\chocolatey\lib\rocksdb\local\include;C:\ProgramData\chocolatey\lib\thrift-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\thrift-dev\local\include;C:\ProgramData\chocolatey\lib\zlib\local\include;C:\ProgramData\chocolatey\lib\zstd\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local;C:\ProgramData\chocolatey\lib\linenoise-ng\local\include\linenoise;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\generated\gen-cpp;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\googletest\googlemock\include;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\googletest\googlemock;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\googletest\googletest\include;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\sqlite3;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\include;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\linenoise-ng;C:\ProgramData\chocolatey\lib\aws-sdk-cpp - Copy\local\include;C:\ProgramData\chocolatey\lib\aws-sdk-cpp\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14 - Copy\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local\include;C:\ProgramData\chocolatey\lib\bzip2\local\include;C:\ProgramData\chocolatey\lib\gflags-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\gflags-dev\local\include;C:\ProgramData\chocolatey\lib\glog - Copy\local\include;C:\ProgramData\chocolatey\lib\glog\local\include;C:\ProgramData\chocolatey\lib\libarchive\local\include;C:\ProgramData\chocolatey\lib\llvm-clang - Copy\local\include;C:\ProgramData\chocolatey\lib\llvm-clang\local\include;C:\ProgramData\chocolatey\lib\openssl - Copy\local\include;C:\ProgramData\chocolatey\lib\openssl\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson\local\include;C:\ProgramData\chocolatey\lib\rocksdb\local\include;C:\ProgramData\chocolatey\lib\thrift-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\thrift-dev\local\include;C:\ProgramData\chocolatey\lib\zlib\local\include;C:\ProgramData\chocolatey\lib\zstd\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local;C:\ProgramData\chocolatey\lib\linenoise-ng\local\include\linenoise;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\generated\gen-cpp;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\googletest\googlemock\include;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\googletest\googlemock;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\googletest\googletest\include;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\googletest\googlemock\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/third-party/googletest/googlemock/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery -BC:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/build/windows10 --check-stamp-file C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/build/windows10/third-party/googletest/googlemock/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/third-party/googletest/googlemock/CMakeLists.txt;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\googletest\googlemock\CMakeLists.txt;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\FindThreads.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\googletest\googlemock\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\third-party\googletest\googlemock\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/third-party/googletest/googlemock/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery -BC:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/build/windows10 --check-stamp-file C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/build/windows10/third-party/googletest/googlemock/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/third-party/googletest/googlemock/CMakeLists.txt;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\googletest\googlemock\CMakeLists.txt;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\FindThreads.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\googletest\googlemock\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\third-party\googletest\googlemock\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/third-party/googletest/googlemock/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery -BC:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/build/windows10 --check-stamp-file C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/build/windows10/third-party/googletest/googlemock/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/third-party/googletest/googlemock/CMakeLists.txt;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\googletest\googlemock\CMakeLists.txt;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\FindThreads.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\googletest\googlemock\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\third-party\googletest\googlemock\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/third-party/googletest/googlemock/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery -BC:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/build/windows10 --check-stamp-file C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/build/windows10/third-party/googletest/googlemock/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/third-party/googletest/googlemock/CMakeLists.txt;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\googletest\googlemock\CMakeLists.txt;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\FindThreads.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\googletest\googlemock\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\third-party\googletest\googlemock\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\ZERO_CHECK.vcxproj">
+      <Project>{C327A719-E9DC-3623-8614-83DE65424E77}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\third-party\googletest\googlemock\gmock.vcxproj">
+      <Project>{A2BCEB61-F5C2-3E61-AB16-B4CDACE96100}</Project>
+      <Name>gmock</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\third-party\googletest\googlemock\gmock_main.vcxproj">
+      <Project>{AF647A03-9CAA-3661-8B31-548B9F367B31}</Project>
+      <Name>gmock_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\third-party\googletest\googlemock\gtest\gtest.vcxproj">
+      <Project>{256BD609-0EBA-3325-B648-F226BEAB497D}</Project>
+      <Name>gtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\third-party\googletest\googlemock\gtest\gtest_main.vcxproj">
+      <Project>{597AE9FD-51B9-3011-B7BF-5A27539A2B40}</Project>
+      <Name>gtest_main</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

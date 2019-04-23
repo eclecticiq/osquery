@@ -7,8 +7,8 @@
 #  You may select, at your option, one of the above-listed licenses.
 
 # Update-able metadata
-$version = '1.4.55'
-$chocoVersion = '1.4.55'
+$version = '1.2.7'
+$chocoVersion = '1.2.7'
 $packageName = 'aws-sdk-cpp'
 $projectSource = 'https://github.com/aws/aws-sdk-cpp'
 $packageSourceUrl = "https://github.com/aws/aws-sdk-cpp/archive/$version.zip"
@@ -33,7 +33,7 @@ $currentLoc = Get-Location
 . "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)\osquery_utils.ps1"
 
 # Invoke the MSVC developer tools/env
-Invoke-BatchFile "$env:VS140COMNTOOLS\..\..\vc\vcvarsall.bat" amd64
+Invoke-BatchFile "$env:VS140COMNTOOLS\..\..\vc\vcvarsall.bat" x86
 
 # Time our execution
 $sw = [System.Diagnostics.StopWatch]::startnew()
@@ -86,7 +86,7 @@ Set-Location $buildDir
 
 $cmake = (Get-Command 'cmake').Source
 $cmakeArgs = @(
-  '-G "Visual Studio 14 2015 Win64"',
+  '-G "Visual Studio 14 2015"',
   '-DSTATIC_LINKING=1',
   '-DNO_HTTP_CLIENT=1',
   '-DMINIMIZE_SIZE=ON',

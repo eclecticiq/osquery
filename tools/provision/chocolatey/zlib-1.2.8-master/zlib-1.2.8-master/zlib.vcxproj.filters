@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\preet\Desktop\zlib-1.2.8-master\zlib-1.2.8-master\adler32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\zlib-1.2.8-master\zlib-1.2.8-master\compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\zlib-1.2.8-master\zlib-1.2.8-master\crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\zlib-1.2.8-master\zlib-1.2.8-master\deflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\zlib-1.2.8-master\zlib-1.2.8-master\gzclose.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\zlib-1.2.8-master\zlib-1.2.8-master\gzlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\zlib-1.2.8-master\zlib-1.2.8-master\gzread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\zlib-1.2.8-master\zlib-1.2.8-master\gzwrite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\zlib-1.2.8-master\zlib-1.2.8-master\inflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\zlib-1.2.8-master\zlib-1.2.8-master\infback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\zlib-1.2.8-master\zlib-1.2.8-master\inftrees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\zlib-1.2.8-master\zlib-1.2.8-master\inffast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\zlib-1.2.8-master\zlib-1.2.8-master\trees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\zlib-1.2.8-master\zlib-1.2.8-master\uncompr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\zlib-1.2.8-master\zlib-1.2.8-master\zutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\preet\Desktop\zlib-1.2.8-master\zlib-1.2.8-master\zconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\preet\Desktop\zlib-1.2.8-master\zlib-1.2.8-master\zlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\preet\Desktop\zlib-1.2.8-master\zlib-1.2.8-master\crc32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\preet\Desktop\zlib-1.2.8-master\zlib-1.2.8-master\deflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\preet\Desktop\zlib-1.2.8-master\zlib-1.2.8-master\gzguts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\preet\Desktop\zlib-1.2.8-master\zlib-1.2.8-master\inffast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\preet\Desktop\zlib-1.2.8-master\zlib-1.2.8-master\inffixed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\preet\Desktop\zlib-1.2.8-master\zlib-1.2.8-master\inflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\preet\Desktop\zlib-1.2.8-master\zlib-1.2.8-master\inftrees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\preet\Desktop\zlib-1.2.8-master\zlib-1.2.8-master\trees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\preet\Desktop\zlib-1.2.8-master\zlib-1.2.8-master\zutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\preet\Desktop\zlib-1.2.8-master\zlib-1.2.8-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\preet\Desktop\zlib-1.2.8-master\zlib-1.2.8-master\win32\zlib1.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FCF48924-56F5-3E11-B85C-A02EC9BBF7F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{27C46EB1-927C-3C97-8335-F95F9A41DAEB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

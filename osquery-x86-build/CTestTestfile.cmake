@@ -1,0 +1,11 @@
+# CMake generated Testfile for 
+# Source directory: C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery
+# Build directory: C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/build/windows10
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+subdirs("third-party/googletest")
+subdirs("third-party/sqlite3")
+subdirs("third-party/linenoise-ng")
+subdirs("osquery")
+subdirs("tools/tests")

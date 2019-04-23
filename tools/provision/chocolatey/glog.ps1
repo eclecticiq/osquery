@@ -26,7 +26,7 @@ $url = 'https://github.com/google/glog.git'
 . "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)\osquery_utils.ps1"
 
 # Invoke the MSVC developer tools/env
-Invoke-BatchFile "$env:VS140COMNTOOLS\..\..\vc\vcvarsall.bat" amd64
+Invoke-BatchFile "$env:VS140COMNTOOLS\..\..\vc\vcvarsall.bat" x86
 
 # Time our execution
 $sw = [System.Diagnostics.StopWatch]::startnew()
@@ -68,7 +68,7 @@ Set-Location $buildDir
 # Generate the .sln
 $cmake = (Get-Command 'cmake').Source
 $cmakeArgs = @(
-  '-G "Visual Studio 14 2015 Win64"',
+  '-G "Visual Studio 14 2015"',
   '-DCMAKE_PREFIX_PATH=C:\ProgramData\chocolatey\lib\gflags\local\',
   '..\'
 ) 

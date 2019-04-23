@@ -26,7 +26,7 @@ $url = "https://github.com/gflags/gflags/archive/v$version.zip"
 . "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)\osquery_utils.ps1"
 
 # Invoke the MSVC developer tools/env
-Invoke-BatchFile "$env:VS140COMNTOOLS\..\..\vc\vcvarsall.bat" amd64
+Invoke-BatchFile "$env:VS140COMNTOOLS\..\..\vc\vcvarsall.bat" x86
 
 # Time our execution
 $sw = [System.Diagnostics.StopWatch]::startnew()
@@ -54,13 +54,13 @@ Invoke-WebRequest $url -OutFile "gflags-$version.zip" -UserAgent [Microsoft.Powe
 Set-Location "gflags-$version"
 
 # Set the cmake logic to generate a static build for us
-Add-Content -NoNewline -Path 'CMakeLists.txt' -Value "`nset(CMAKE_CXX_FLAGS_RELEASE `"`${CMAKE_CXX_FLAGS_RELEASE} /MT`")`nset(CMAKE_CXX_FLAGS_DEBUG `"`${CMAKE_CXX_FLAGS_DEBUG} /MTd`")"
+Add-Content -NoNewline -Path 'CMakeLists.txt' -Value "`nset(CMAKE_CXX_FLAGS_RELEASE `"`${CMAKE_CXX_FLAGS_RELEASE} -W3 /wd4018 /wd4244 /MT`")`nset(CMAKE_CXX_FLAGS_DEBUG `"`${CMAKE_CXX_FLAGS_DEBUG} -W3 /wd4018 /wd4244 /MTd`")"
 
 # Build the libraries
 $buildDir = New-Item -Force -ItemType Directory -Path "osquery-win-build"
 Set-Location $buildDir
 
-cmake -DGFLAGS_BUILD_STATIC_LIBS=ON -DGFLAGS_BUILD_SHARED_LIBS=OFF -DGFLAGS_BUILD_gflags_LIB=ON -DGFLAGS_NAMESPACE=google ..\ -G "Visual Studio 14 2015 Win64"
+cmake -DGFLAGS_BUILD_STATIC_LIBS=ON -DGFLAGS_BUILD_SHARED_LIBS=OFF -DGFLAGS_BUILD_gflags_LIB=ON -DGFLAGS_NAMESPACE=google ..\ -G "Visual Studio 14 2015"
 
 msbuild 'gflags.sln' /p:Configuration=Release /m /t:gflags_static /v:m
 msbuild 'gflags.sln' /p:Configuration=Debug /m /t:gflags_static /v:m

@@ -1,0 +1,12 @@
+# CMake generation dependency list for this directory.
+C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/third-party/googletest/googletest/CMakeLists.txt
+C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/third-party/googletest/googletest/cmake/internal_utils.cmake
+C:/ProgramData/chocolatey/lib/cmake.portable/tools/cmake-3.10.2-win64-x64/share/cmake-3.10/Modules/FindPythonInterp.cmake
+C:/ProgramData/chocolatey/lib/cmake.portable/tools/cmake-3.10.2-win64-x64/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake
+C:/ProgramData/chocolatey/lib/cmake.portable/tools/cmake-3.10.2-win64-x64/share/cmake-3.10/Modules/FindPackageMessage.cmake
+C:/ProgramData/chocolatey/lib/cmake.portable/tools/cmake-3.10.2-win64-x64/share/cmake-3.10/Modules/FindThreads.cmake
+C:/ProgramData/chocolatey/lib/cmake.portable/tools/cmake-3.10.2-win64-x64/share/cmake-3.10/Modules/CheckLibraryExists.cmake
+C:/ProgramData/chocolatey/lib/cmake.portable/tools/cmake-3.10.2-win64-x64/share/cmake-3.10/Modules/CheckSymbolExists.cmake
+C:/ProgramData/chocolatey/lib/cmake.portable/tools/cmake-3.10.2-win64-x64/share/cmake-3.10/Modules/CheckIncludeFile.cmake
+C:/ProgramData/chocolatey/lib/cmake.portable/tools/cmake-3.10.2-win64-x64/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake
+C:/ProgramData/chocolatey/lib/cmake.portable/tools/cmake-3.10.2-win64-x64/share/cmake-3.10/Modules/FindPackageMessage.cmake

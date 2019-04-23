@@ -22,7 +22,7 @@ $url = "https://github.com/facebook/zstd/archive/v$version.zip"
 . "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)\osquery_utils.ps1"
 
 # Invoke the MSVC developer tools/env
-Invoke-BatchFile "$env:VS140COMNTOOLS\..\..\vc\vcvarsall.bat" amd64
+Invoke-BatchFile "$env:VS140COMNTOOLS\..\..\vc\vcvarsall.bat" x86
 
 # Time our execution
 $sw = [System.Diagnostics.StopWatch]::startnew()
@@ -60,7 +60,7 @@ Set-Location $sourceDir
 $vcxprojLocation = 'build\VS2010\libzstd\libzstd.vcxproj'
 # Patch the AssemblerOutput out of the project
 (Get-Content $vcxprojLocation).replace('<AssemblerOutput>All</AssemblerOutput>', '<AssemblerOutput>NoListing</AssemblerOutput>') | Set-Content $vcxprojLocation
-msbuild "build\VS2010\zstd.sln" /verbosity:minimal /nologo /t:Clean,libzstd /p:Platform=x64 /p:Configuration=Release /p:PlatformToolset=v140
+msbuild "build\VS2010\zstd.sln" /verbosity:minimal /nologo /t:Clean,libzstd /p:Platform=Win32 /p:Configuration=Release /p:PlatformToolset=v140
  
 # Construct the Chocolatey Package
 $chocoDir = New-Item -ItemType Directory -Path 'osquery-choco'
@@ -80,7 +80,7 @@ Write-NuSpec `
   $license
 
 Set-Location $sourceDir
-Copy-Item "build\VS2010\bin\x64_Release\libzstd_static.lib" $libDir
+Copy-Item "build\VS2010\bin\Win32_Release\libzstd_static.lib" $libDir
 Copy-Item -Recurse "lib\zstd.h" $includeDir
 Copy-Item $buildScript $srcDir
 Set-Location 'osquery-choco'

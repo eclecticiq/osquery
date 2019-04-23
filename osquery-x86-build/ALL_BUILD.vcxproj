@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0E2E0FD7-ABFD-3AF5-8F17-95BB245BFA21}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\sqlite3;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\include;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\linenoise-ng;C:\ProgramData\chocolatey\lib\aws-sdk-cpp - Copy\local\include;C:\ProgramData\chocolatey\lib\aws-sdk-cpp\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14 - Copy\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local\include;C:\ProgramData\chocolatey\lib\bzip2\local\include;C:\ProgramData\chocolatey\lib\gflags-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\gflags-dev\local\include;C:\ProgramData\chocolatey\lib\glog - Copy\local\include;C:\ProgramData\chocolatey\lib\glog\local\include;C:\ProgramData\chocolatey\lib\libarchive\local\include;C:\ProgramData\chocolatey\lib\llvm-clang - Copy\local\include;C:\ProgramData\chocolatey\lib\llvm-clang\local\include;C:\ProgramData\chocolatey\lib\openssl - Copy\local\include;C:\ProgramData\chocolatey\lib\openssl\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson\local\include;C:\ProgramData\chocolatey\lib\rocksdb\local\include;C:\ProgramData\chocolatey\lib\thrift-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\thrift-dev\local\include;C:\ProgramData\chocolatey\lib\zlib\local\include;C:\ProgramData\chocolatey\lib\zstd\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local;C:\ProgramData\chocolatey\lib\linenoise-ng\local\include\linenoise;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\generated\gen-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\sqlite3;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\include;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\linenoise-ng;C:\ProgramData\chocolatey\lib\aws-sdk-cpp - Copy\local\include;C:\ProgramData\chocolatey\lib\aws-sdk-cpp\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14 - Copy\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local\include;C:\ProgramData\chocolatey\lib\bzip2\local\include;C:\ProgramData\chocolatey\lib\gflags-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\gflags-dev\local\include;C:\ProgramData\chocolatey\lib\glog - Copy\local\include;C:\ProgramData\chocolatey\lib\glog\local\include;C:\ProgramData\chocolatey\lib\libarchive\local\include;C:\ProgramData\chocolatey\lib\llvm-clang - Copy\local\include;C:\ProgramData\chocolatey\lib\llvm-clang\local\include;C:\ProgramData\chocolatey\lib\openssl - Copy\local\include;C:\ProgramData\chocolatey\lib\openssl\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson\local\include;C:\ProgramData\chocolatey\lib\rocksdb\local\include;C:\ProgramData\chocolatey\lib\thrift-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\thrift-dev\local\include;C:\ProgramData\chocolatey\lib\zlib\local\include;C:\ProgramData\chocolatey\lib\zstd\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local;C:\ProgramData\chocolatey\lib\linenoise-ng\local\include\linenoise;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\generated\gen-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\sqlite3;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\include;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\linenoise-ng;C:\ProgramData\chocolatey\lib\aws-sdk-cpp - Copy\local\include;C:\ProgramData\chocolatey\lib\aws-sdk-cpp\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14 - Copy\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local\include;C:\ProgramData\chocolatey\lib\bzip2\local\include;C:\ProgramData\chocolatey\lib\gflags-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\gflags-dev\local\include;C:\ProgramData\chocolatey\lib\glog - Copy\local\include;C:\ProgramData\chocolatey\lib\glog\local\include;C:\ProgramData\chocolatey\lib\libarchive\local\include;C:\ProgramData\chocolatey\lib\llvm-clang - Copy\local\include;C:\ProgramData\chocolatey\lib\llvm-clang\local\include;C:\ProgramData\chocolatey\lib\openssl - Copy\local\include;C:\ProgramData\chocolatey\lib\openssl\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson\local\include;C:\ProgramData\chocolatey\lib\rocksdb\local\include;C:\ProgramData\chocolatey\lib\thrift-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\thrift-dev\local\include;C:\ProgramData\chocolatey\lib\zlib\local\include;C:\ProgramData\chocolatey\lib\zstd\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local;C:\ProgramData\chocolatey\lib\linenoise-ng\local\include\linenoise;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\generated\gen-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\sqlite3;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\include;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\third-party\linenoise-ng;C:\ProgramData\chocolatey\lib\aws-sdk-cpp - Copy\local\include;C:\ProgramData\chocolatey\lib\aws-sdk-cpp\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14 - Copy\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local\include;C:\ProgramData\chocolatey\lib\bzip2\local\include;C:\ProgramData\chocolatey\lib\gflags-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\gflags-dev\local\include;C:\ProgramData\chocolatey\lib\glog - Copy\local\include;C:\ProgramData\chocolatey\lib\glog\local\include;C:\ProgramData\chocolatey\lib\libarchive\local\include;C:\ProgramData\chocolatey\lib\llvm-clang - Copy\local\include;C:\ProgramData\chocolatey\lib\llvm-clang\local\include;C:\ProgramData\chocolatey\lib\openssl - Copy\local\include;C:\ProgramData\chocolatey\lib\openssl\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson - Copy\local\include;C:\ProgramData\chocolatey\lib\rapidjson\local\include;C:\ProgramData\chocolatey\lib\rocksdb\local\include;C:\ProgramData\chocolatey\lib\thrift-dev - Copy\local\include;C:\ProgramData\chocolatey\lib\thrift-dev\local\include;C:\ProgramData\chocolatey\lib\zlib\local\include;C:\ProgramData\chocolatey\lib\zstd\local\include;C:\ProgramData\chocolatey\lib\boost-msvc14\local;C:\ProgramData\chocolatey\lib\linenoise-ng\local\include\linenoise;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\generated\gen-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery -BC:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/build/windows10 --check-stamp-file C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/build/windows10/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/CMakeLists.txt;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\CMakeLists.txt;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\3.10.2\CMakeSystem.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\3.10.2\CMakeCCompiler.cmake;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\3.10.2\CMakeCXXCompiler.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\3.10.2\CMakeRCCompiler.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\CMake\CMakeLibs.cmake;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\CMake\Thrift.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CheckIncludeFileCXX.cmake;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\CMake\Packages.cmake;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery -BC:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/build/windows10 --check-stamp-file C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/build/windows10/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/CMakeLists.txt;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\CMakeLists.txt;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\3.10.2\CMakeSystem.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\3.10.2\CMakeCCompiler.cmake;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\3.10.2\CMakeCXXCompiler.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\3.10.2\CMakeRCCompiler.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\CMake\CMakeLibs.cmake;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\CMake\Thrift.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CheckIncludeFileCXX.cmake;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\CMake\Packages.cmake;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery -BC:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/build/windows10 --check-stamp-file C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/build/windows10/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/CMakeLists.txt;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\CMakeLists.txt;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\3.10.2\CMakeSystem.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\3.10.2\CMakeCCompiler.cmake;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\3.10.2\CMakeCXXCompiler.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\3.10.2\CMakeRCCompiler.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\CMake\CMakeLibs.cmake;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\CMake\Thrift.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CheckIncludeFileCXX.cmake;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\CMake\Packages.cmake;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\bin\cmake.exe -HC:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery -BC:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/build/windows10 --check-stamp-file C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/build/windows10/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/preet/Desktop/pe-sieve/osquery-plgx-extension/osquery/CMakeLists.txt;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\CMakeLists.txt;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\3.10.2\CMakeSystem.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\3.10.2\CMakeCCompiler.cmake;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\3.10.2\CMakeCXXCompiler.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\3.10.2\CMakeRCCompiler.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\CMake\CMakeLibs.cmake;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\CMake\Thrift.cmake;C:\ProgramData\chocolatey\lib\cmake.portable\tools\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CheckIncludeFileCXX.cmake;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\CMake\Packages.cmake;C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\ZERO_CHECK.vcxproj">
+      <Project>{C327A719-E9DC-3623-8614-83DE65424E77}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\daemon.vcxproj">
+      <Project>{4B9E668B-C2AB-3558-B669-48C5101F821D}</Project>
+      <Name>daemon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\example_extension.vcxproj">
+      <Project>{034F7B14-6DC4-30B9-B1B9-7D4401AFF709}</Project>
+      <Name>example_extension</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\third-party\googletest\googlemock\gmock.vcxproj">
+      <Project>{A2BCEB61-F5C2-3E61-AB16-B4CDACE96100}</Project>
+      <Name>gmock</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\third-party\googletest\googlemock\gmock_main.vcxproj">
+      <Project>{AF647A03-9CAA-3661-8B31-548B9F367B31}</Project>
+      <Name>gmock_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\third-party\googletest\googlemock\gtest\gtest.vcxproj">
+      <Project>{256BD609-0EBA-3325-B648-F226BEAB497D}</Project>
+      <Name>gtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\third-party\googletest\googlemock\gtest\gtest_main.vcxproj">
+      <Project>{597AE9FD-51B9-3011-B7BF-5A27539A2B40}</Project>
+      <Name>gtest_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\libosquery.vcxproj">
+      <Project>{BD54599C-9114-30A0-A240-5BEB83FD10B3}</Project>
+      <Name>libosquery</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\libosquery_additional.vcxproj">
+      <Project>{72E53D06-129F-383F-A531-80BFD84BC1EE}</Project>
+      <Name>libosquery_additional</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\libosquery_testing.vcxproj">
+      <Project>{8D7BB307-4F9F-3D8A-B99F-2DD79ABA1A16}</Project>
+      <Name>libosquery_testing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\third-party\linenoise-ng\linenoise-ng.vcxproj">
+      <Project>{7C4429CF-9979-3DC6-A959-228A2FEB4715}</Project>
+      <Name>linenoise-ng</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\osquery_additional_amalgamation.vcxproj">
+      <Project>{AE04B1C6-0C26-3747-A86A-A323516366E9}</Project>
+      <Name>osquery_additional_amalgamation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\config\osquery_additional_config_parsers.vcxproj">
+      <Project>{1E1161A5-2668-3F5B-9671-E10092CF340F}</Project>
+      <Name>osquery_additional_config_parsers</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\osquery_additional_tests.vcxproj">
+      <Project>{41E06D86-73B6-3440-9952-666FCC0BE98C}</Project>
+      <Name>osquery_additional_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\osquery_amalgamation.vcxproj">
+      <Project>{5E947662-538D-3940-AB97-109677827683}</Project>
+      <Name>osquery_amalgamation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_applications_tables.vcxproj">
+      <Project>{04DE5F73-796A-334C-B5DC-CC9F0F6B38FC}</Project>
+      <Name>osquery_applications_tables</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\utils\osquery_aws_util.vcxproj">
+      <Project>{CF6E0ADD-A349-3BC5-B6A3-5017466C23BF}</Project>
+      <Name>osquery_aws_util</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\osquery_benchmarks.vcxproj">
+      <Project>{71EB07FE-A6A6-3F92-A124-2C3A297FAE21}</Project>
+      <Name>osquery_benchmarks</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\carver\osquery_carver.vcxproj">
+      <Project>{EA178732-5F48-3EE6-9FC6-2EBEE53D6F8B}</Project>
+      <Name>osquery_carver</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\config\osquery_config.vcxproj">
+      <Project>{63C9798D-C692-3EF9-B056-E7A1A0B34047}</Project>
+      <Name>osquery_config</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\config\osquery_config_parsers.vcxproj">
+      <Project>{C37EB02C-B227-3648-B56F-6103C31BE48A}</Project>
+      <Name>osquery_config_parsers</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\config\osquery_config_plugins.vcxproj">
+      <Project>{A36F180E-7461-355D-952A-43D2C9DFD37E}</Project>
+      <Name>osquery_config_plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\core\osquery_core.vcxproj">
+      <Project>{D0828FB7-1C32-3F5E-856A-DC29C940E40E}</Project>
+      <Name>osquery_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\database\osquery_database.vcxproj">
+      <Project>{CF0C942D-DB58-3D1E-9D6E-F0CA4BC05673}</Project>
+      <Name>osquery_database</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\database\osquery_database_plugins.vcxproj">
+      <Project>{BC10F168-385D-3A5A-BEB3-453EE8DE4AD3}</Project>
+      <Name>osquery_database_plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\devtools\osquery_devtools.vcxproj">
+      <Project>{5EC10CED-BDAE-3616-A463-0A06E584FB51}</Project>
+      <Name>osquery_devtools</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\dispatcher\osquery_dispatcher.vcxproj">
+      <Project>{D332F684-764F-3624-8F10-F909B0F42006}</Project>
+      <Name>osquery_dispatcher</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\dispatcher\osquery_dispatcher_runners.vcxproj">
+      <Project>{C4D903D1-0995-3A7F-B87D-BB7BB76FFFA0}</Project>
+      <Name>osquery_dispatcher_runners</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\distributed\osquery_distributed.vcxproj">
+      <Project>{04638050-1FEE-37CC-AE1B-CBDC11913AFB}</Project>
+      <Name>osquery_distributed</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\distributed\osquery_distributed_plugins.vcxproj">
+      <Project>{A1D27173-4687-35C9-A01C-52177BBC65ED}</Project>
+      <Name>osquery_distributed_plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\remote\osquery_enrollment_plugins.vcxproj">
+      <Project>{C3C66759-49DD-388E-98EF-1ADAC4F043D0}</Project>
+      <Name>osquery_enrollment_plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\events\osquery_events.vcxproj">
+      <Project>{289A6BC0-4D8D-378A-8E54-572106E35666}</Project>
+      <Name>osquery_events</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_events_tables.vcxproj">
+      <Project>{65C41E29-F133-3595-B6ED-BD7D6A4CC902}</Project>
+      <Name>osquery_events_tables</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\events\osquery_events_windows.vcxproj">
+      <Project>{7EA41AA4-78CA-37FF-9B7B-B8AABBB6C8D0}</Project>
+      <Name>osquery_events_windows</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\extensions\osquery_extensions.vcxproj">
+      <Project>{C9A08890-1F45-3CBE-A726-66F1CB0BFF5D}</Project>
+      <Name>osquery_extensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\filesystem\osquery_filesystem.vcxproj">
+      <Project>{BDE8A48D-44D9-3031-AFB2-3E627FB9D59F}</Project>
+      <Name>osquery_filesystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\filesystem\osquery_filesystem_compression.vcxproj">
+      <Project>{1D99B2CA-52FF-35ED-A4E9-8AEBFD61E35E}</Project>
+      <Name>osquery_filesystem_compression</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\osquery_foreign_amalgamation.vcxproj">
+      <Project>{1F44038E-B93F-3B03-A12E-4C7F15DE6011}</Project>
+      <Name>osquery_foreign_amalgamation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_forensic_tables.vcxproj">
+      <Project>{D33DC1F7-6D8B-3491-9AEC-4ADA4FA9F0E9}</Project>
+      <Name>osquery_forensic_tables</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\osquery_library.vcxproj">
+      <Project>{57D980DA-B34A-38DA-8E5E-F420124BA68B}</Project>
+      <Name>osquery_library</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\logger\osquery_logger.vcxproj">
+      <Project>{C721D6F9-5CE2-3C1A-BD76-E07DC9829047}</Project>
+      <Name>osquery_logger</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\logger\osquery_logger_aws_plugins.vcxproj">
+      <Project>{1CECEB3A-11E3-3521-A993-25B7800946C1}</Project>
+      <Name>osquery_logger_aws_plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\logger\osquery_logger_plugins.vcxproj">
+      <Project>{29926CEC-0A46-35A9-984F-13B396398352}</Project>
+      <Name>osquery_logger_plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_networking_tables.vcxproj">
+      <Project>{3976687B-8C09-3D12-832C-C6F6738E79C3}</Project>
+      <Name>osquery_networking_tables</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\registry\osquery_registry.vcxproj">
+      <Project>{45FF95D6-A448-39F6-AC47-81D18D847149}</Project>
+      <Name>osquery_registry</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\remote\osquery_remote.vcxproj">
+      <Project>{0230C352-D9D3-3E07-A5ED-8B52D627E4B1}</Project>
+      <Name>osquery_remote</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\sql\osquery_sql.vcxproj">
+      <Project>{DD80FF6C-C6F9-3B2F-98A1-DBA6BAC5488C}</Project>
+      <Name>osquery_sql</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\sql\osquery_sql_internal.vcxproj">
+      <Project>{2756E27B-E6D6-3FD1-9F41-5B063792998B}</Project>
+      <Name>osquery_sql_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\third-party\sqlite3\osquery_sqlite.vcxproj">
+      <Project>{89B5F9EB-2E31-3971-B3CD-6CAF642343D9}</Project>
+      <Name>osquery_sqlite</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_system_tables.vcxproj">
+      <Project>{3E7D84D4-F1A2-320C-A534-1ED584E21961}</Project>
+      <Name>osquery_system_tables</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\osquery_tables_tests.vcxproj">
+      <Project>{B380FD9C-AB71-32F4-8E89-9F059388D574}</Project>
+      <Name>osquery_tables_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\tables\osquery_tables_utility.vcxproj">
+      <Project>{874D412A-EBAC-30D7-8FB0-D80745EB86A1}</Project>
+      <Name>osquery_tables_utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\osquery_tests.vcxproj">
+      <Project>{17E1E1C7-0E36-30ED-B323-EF88B22415FF}</Project>
+      <Name>osquery_tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\preet\Desktop\pe-sieve\osquery-plgx-extension\osquery\build\windows10\osquery\shell.vcxproj">
+      <Project>{39C489E5-0D1B-310D-9B89-36D03BC7332C}</Project>
+      <Name>shell</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

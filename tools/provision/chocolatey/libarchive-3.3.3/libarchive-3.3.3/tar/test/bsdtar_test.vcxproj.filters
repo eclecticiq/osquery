@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\test_utils\test_utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\test_utils\test_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_basic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_copy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_empty_mtree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_extract_tar_Z.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_extract_tar_bz2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_extract_tar_grz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_extract_tar_gz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_extract_tar_lrz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_extract_tar_lz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_extract_tar_lz4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_extract_tar_lzma.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_extract_tar_lzo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_extract_tar_xz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_extract_tar_zstd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_format_newc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_help.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_leading_slash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_missing_file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_C_upper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_C_mtree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_H_upper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_L_upper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_O_upper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_T_upper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_U_upper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_X_upper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_a.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_acls.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_b.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_b64encode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_exclude.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_fflags.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_gid_gname.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_grzip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_j.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_k.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_keep_newer_files.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_lrzip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_lz4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_lzma.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_lzop.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_n.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_newer_than.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_nodump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_older_than.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_passphrase.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_q.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_r.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_uid_uname.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_uuencode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_xattrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_xz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_z.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_option_zstd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_patterns.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_print_longpath.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_stdio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_strip_components.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_symlink_dir.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_version.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test_windows.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\tar\test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{959EE806-4D46-3DC4-BDF1-AD2F0BEA8477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9C4B3F99-1B75-352B-AC6A-88113D0E62EF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

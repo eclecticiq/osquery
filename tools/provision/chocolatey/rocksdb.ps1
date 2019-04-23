@@ -11,8 +11,8 @@
 # $version - The version of the software package to build
 # $chocoVersion - The chocolatey package version, used for incremental bumps
 #                 without changing the version of the software package
-$version = '5.7.2'
-$chocoVersion = '5.7.2'
+$version = '5.7.1'
+$chocoVersion = '5.7.1-r1'
 $packageName = "rocksdb"
 $projectSource = 'https://github.com/facebook/rocksdb/'
 $packageSourceUrl = 'https://github.com/facebook/rocksdb/'
@@ -51,27 +51,29 @@ $zipfile = "rocksdb-$version.zip"
 if (-not (Test-Path $zipfile)) {
   Invoke-WebRequest $url -OutFile $zipfile
 }
-
+Write-Host '[*] Building 32 bit rocksdb libs' -ForegroundColor Cyan
 # Extract the source
 $sourceDir = Join-Path $(Get-Location) "rocksdb-$version"
 if (-not (Test-Path $sourceDir)) {
   $7z = (Get-Command '7z').Source
   $7zargs = "x $packageName-$version.zip"
-  Start-OsqueryProcess $7z $7zargs $false
+  Start-OsqueryProcess $7z $7zargs
 }
 Set-Location $sourceDir
-
+Write-Host '[*] Building 32 bit rocksdb libs' -ForegroundColor Cyan
 # Set the cmake logic to generate a static build for us
 $staticArgs = "`nset(CMAKE_CXX_FLAGS_RELEASE " +
-              "`"`${CMAKE_CXX_FLAGS_RELEASE} /MT`")" +
+              "`"`${CMAKE_CXX_FLAGS_RELEASE} -W3 /wd4018 /wd4244 /MT`")" +
               "`nset(CMAKE_CXX_FLAGS_DEBUG " +
-              "`"`${CMAKE_CXX_FLAGS_DEBUG} /MTd`")"
+              "`"`${CMAKE_CXX_FLAGS_DEBUG} /MTd`")" 
+
+
 $cmakePath = Join-Path $(Get-Location) 'CMakeLists.txt'
 Add-Content `
   -NoNewline `
   -Path $cmakePath `
   -Value $staticArgs
-
+Write-Host '[*] Building 32 bit rocksdb libs' -ForegroundColor Cyan
 # Build the libraries
 $buildDir = New-Item -Force -ItemType Directory -Path 'osquery-win-build'
 Set-Location $buildDir
@@ -85,20 +87,22 @@ $envArch = [System.Environment]::GetEnvironmentVariable('OSQ32')
 $arch = ''
 $platform = ''
 $cmakeBuildType = ''
-if ($envArch -eq 1) {
+#if ($envArch -eq 1) {
   Write-Host '[*] Building 32 bit rocksdb libs' -ForegroundColor Cyan
   $arch = 'Win32'
   $platform = 'x86'
-  $cmakeBuildType = 'Visual Studio 15 2017'
-} else {
-  Write-Host '[*] Building 64 bit rocksdb libs' -ForegroundColor Cyan
-  $arch = 'x64'
-  $platform = 'amd64'
-  $cmakeBuildType = 'Visual Studio 15 2017 Win64'
-}
+  $cmakeBuildType = 'Visual Studio 14 2015'
+#} else {
+#  Write-Host '[*] Building 64 bit rocksdb libs' -ForegroundColor Cyan
+ # $arch = 'x64'
+ # $platform = 'amd64'
+  #$cmakeBuildType = 'Visual Studio 14 2015 Win64'
+#}
 
+Write-Host '[*] Invoking 32 bit rocksdb libs' -ForegroundColor Cyan
 # Invoke the MSVC developer tools/env
-Invoke-VcVarsAll
+Invoke-BatchFile "$env:VS140COMNTOOLS\..\..\vc\vcvarsall.bat" $platform
+Write-Host '[*] Building 32 bit rocksdb libs' -ForegroundColor Cyan
 
 $cmake = (Get-Command 'cmake').Source
 $cmakeArgs = @(
@@ -107,15 +111,18 @@ $cmakeArgs = @(
   '-DROCKSDB_LITE=ON',
   '../'
 )
-Start-OsqueryProcess $cmake $cmakeArgs $false
+Start-OsqueryProcess $cmake $cmakeArgs
 
 # Build the libraries
 $msbuild = (Get-Command 'msbuild').Source
 $configurations = @(
-  'Release',
+  #'Release',
+   'Release',
   'Debug'
 )
+Write-Host '[*] Building 32 bit rocksdb libs' -ForegroundColor Cyan
 foreach($cfg in $configurations) {
+Write-Host '[*] Building 32 bit rocksdb libs in loop' -ForegroundColor Cyan
   $msbuildArgs = @(
     'rocksdb.sln',
     "/p:Configuration=$cfg",
@@ -125,9 +132,9 @@ foreach($cfg in $configurations) {
     '/m',
     '/v:m'
   )
-  Start-OsqueryProcess $msbuild $msbuildArgs $false
+  Start-OsqueryProcess $msbuild $msbuildArgs
 }
-
+Write-Host '[*] Building 32 bit rocksdb libs' -ForegroundColor Cyan
 # If the build path exists, purge it for a clean packaging
 $chocoDir = Join-Path $(Get-Location) 'osquery-choco'
 if (Test-Path $chocoDir) {
@@ -152,16 +159,16 @@ Write-NuSpec `
   $license
 
 # Rename the Debug libraries to end with a `_dbg.lib`
-foreach ($lib in Get-ChildItem "$buildDir\Debug\") {
-  $toks = $lib.Name.split('.')
-  $newLibName = $toks[0..$($toks.count - 2)] -join '.'
-  $suffix = $toks[$($toks.count - 1)]
-  Copy-Item -Path $lib.Fullname -Destination "$libDir\$newLibName`_dbg.$suffix"
-}
+#foreach ($lib in Get-ChildItem "$buildDir\Debug\") {
+#  $toks = $lib.Name.split('.')
+#  $newLibName = $toks[0..$($toks.count - 2)] -join '.'
+#  $suffix = $toks[$($toks.count - 1)]
+#  Copy-Item -Path $lib.Fullname -Destination "$libDir\$newLibName`_dbg.$suffix"
+#}
 Copy-Item "$buildDir\Release\*" $libDir
 Copy-Item -Recurse "$buildDir\..\include\rocksdb" $includeDir
 Copy-Item $buildScript $srcDir
-Start-OsqueryProcess 'choco' @('pack') $false
+choco pack
 
 Write-Host "[*] Build took $($sw.ElapsedMilliseconds) ms" `
 -ForegroundColor DarkGreen

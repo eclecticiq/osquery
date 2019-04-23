@@ -21,7 +21,7 @@ $authors = 'llvm'
 $owners = 'llvm'
 $copyright = 'Copyright (c) 2003-2017 University of Illinois at Urbana-Champaign.'
 $license = "https://releases.llvm.org/$version/LICENSE.TXT"
-$url = "http://releases.llvm.org/$version/LLVM-$version-win64.exe"
+$url = "http://releases.llvm.org/$version/LLVM-$version-win32.exe"
 $parentPath = $(Split-Path -Parent $MyInvocation.MyCommand.Definition)
 
 $workingDir = Get-Location
@@ -30,7 +30,7 @@ $workingDir = Get-Location
 . $(Join-Path $parentPath "osquery_utils.ps1")
 
 # Invoke the MSVC developer tools/env
-Invoke-BatchFile "$env:VS140COMNTOOLS\..\..\vc\vcvarsall.bat" amd64
+Invoke-BatchFile "$env:VS140COMNTOOLS\..\..\vc\vcvarsall.bat" x86
 
 # Time our execution
 $sw = [System.Diagnostics.StopWatch]::startnew()

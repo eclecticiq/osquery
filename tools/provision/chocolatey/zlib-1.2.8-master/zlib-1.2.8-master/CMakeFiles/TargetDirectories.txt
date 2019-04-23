@@ -1,0 +1,8 @@
+C:/Users/preet/Desktop/zlib-1.2.8-master/zlib-1.2.8-master/CMakeFiles/zlib.dir
+C:/Users/preet/Desktop/zlib-1.2.8-master/zlib-1.2.8-master/CMakeFiles/zlibstatic.dir
+C:/Users/preet/Desktop/zlib-1.2.8-master/zlib-1.2.8-master/CMakeFiles/example.dir
+C:/Users/preet/Desktop/zlib-1.2.8-master/zlib-1.2.8-master/CMakeFiles/minigzip.dir
+C:/Users/preet/Desktop/zlib-1.2.8-master/zlib-1.2.8-master/CMakeFiles/INSTALL.dir
+C:/Users/preet/Desktop/zlib-1.2.8-master/zlib-1.2.8-master/CMakeFiles/RUN_TESTS.dir
+C:/Users/preet/Desktop/zlib-1.2.8-master/zlib-1.2.8-master/CMakeFiles/ALL_BUILD.dir
+C:/Users/preet/Desktop/zlib-1.2.8-master/zlib-1.2.8-master/CMakeFiles/ZERO_CHECK.dir

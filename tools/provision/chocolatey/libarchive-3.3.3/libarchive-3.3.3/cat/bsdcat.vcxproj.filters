@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cat\bsdcat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cat\cmdline.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive_fe\err.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cat\bsdcat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cat\bsdcat_platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive_fe\err.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\libarchive_fe\lafe_platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\preet\Desktop\libarchive-3.3.3\libarchive-3.3.3\cat\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{959EE806-4D46-3DC4-BDF1-AD2F0BEA8477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9C4B3F99-1B75-352B-AC6A-88113D0E62EF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

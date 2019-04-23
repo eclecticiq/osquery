@@ -14,7 +14,7 @@
 # $chocoVersion - The chocolatey package version, used for incremental bumps
 #                 without changing the version of the software package
 $version = '1.66.0'
-$chocoVersion = '1.66.0-r1'
+$chocoVersion = '1.66.0'
 $versionUnderscores = $version -replace '\.', '_'
 $packageName = 'boost-msvc14'
 $projectSource = `
@@ -29,7 +29,7 @@ $timestamp = [int][double]::Parse((Get-Date -UFormat %s))
 $url = "http://downloads.sourceforge.net/project/boost/boost/" +
        "$version/boost_$versionUnderscores.7z?r=&ts=$timestamp" +
        "&use_mirror=pilotfiber"
-$numJobs = 4
+$numJobs = 2
 
 $currentLoc = Get-Location
 
@@ -37,7 +37,7 @@ $currentLoc = Get-Location
 . "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)\osquery_utils.ps1"
 
 # Invoke the MSVC developer tools/env
-Invoke-VcVarsAll
+Invoke-BatchFile "$env:VS140COMNTOOLS\..\..\vc\vcvarsall.bat" amd64
 
 # Time our execution
 $sw = [System.Diagnostics.StopWatch]::startnew()
@@ -59,7 +59,6 @@ Set-Location $chocoBuildPath
 
 # Retreive the source only if it doesn't already exist
 if (-not (Test-Path "boost-$version.7z")) {
-  [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
   Invoke-WebRequest `
     -OutFile "boost-$version.7z" `
     -UserAgent [Microsoft.PowerShell.Commands.PSUserAgent]::Chrome `
@@ -71,16 +70,15 @@ $sourceDir = Join-Path $(Get-Location) "boost_$versionUnderscores"
 if (-not (Test-Path $sourceDir)) {
   $7z = (Get-Command '7z').Source
   $7zargs = "x boost-$version.7z"
-  Start-OsqueryProcess $7z $7zargs $false
+  Start-OsqueryProcess $7z $7zargs
 }
 Set-Location $sourceDir
 
 # Build the b2 binary
-if ($null -eq $(Get-Command 'vswhere' -ErrorAction SilentlyContinue)) {
+if ($(Get-Command 'vswhere' -ErrorAction SilentlyContinue) -eq $null) {
   Write-Host '[-] Did not find vswhere in PATH.' -foregroundcolor red
   exit
 }
-
 $b2 = Join-Path $(Get-Location) 'b2.exe'
 if (-not (Test-Path $b2)) {
   Write-Debug '[*] Boost build engine not found, building'
@@ -88,8 +86,8 @@ if (-not (Test-Path $b2)) {
 }
 
 $installPrefix = 'stage'
-$arch = '64'
-$toolset = 'msvc-14.1'
+$arch = '32'
+$toolset = 'msvc-14.0 '
 # Build the boost libraries
 $b2x64args = @(
   "-j$numJobs",
@@ -99,7 +97,8 @@ $b2x64args = @(
   'link=static',
   'threading=multi',
   'runtime-link=static',
-  'optimization=space',
+   'optimization=space',
+  'define=BOOST_USE_WINAPI_VERSION=0x0601',
   '--with-filesystem',
   '--with-regex',
   '--with-system',
@@ -110,7 +109,6 @@ $b2x64args = @(
   '--ignore-site-config',
   '--disable-icu'
 )
-Write-Host '[+] Building boost with: ' + $b2x64args -ForegroundColor Cyan
 Start-OsqueryProcess $b2 $b2x64args $false
 
 # If the build path exists, purge it for a clean packaging
@@ -139,8 +137,7 @@ Write-NuSpec `
 Copy-Item "..\$installPrefix\lib\*" $libDir
 Copy-Item -Recurse "..\boost" $includeDir
 Copy-Item $buildScriptSource $srcDir
-
-Start-OsqueryProcess 'choco' @('pack') $false
+choco pack
 
 Write-Host "[*] Build took $($sw.ElapsedMilliseconds) ms" `
   -ForegroundColor DarkGreen
